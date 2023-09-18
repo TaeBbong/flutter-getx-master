@@ -16,6 +16,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      // GetX에서 라우팅을 관리하기 위해 다음과 같이 작업함
+      // 기존 routes와 동일하나, 파라미터 전달 등이 편리하고 URL 파싱이 가능함
+      // TODO: 관련 예제는 추가 예정
       initialRoute: '/',
       getPages: [
         GetPage(name: '/', page: () => SplashPage()),
