@@ -4,7 +4,7 @@ import 'package:flutter_getx_master/views/home/index_page.dart';
 import 'package:flutter_getx_master/views/home/todo/todo_page.dart';
 import 'package:get/get.dart';
 
-import 'views/splash_page.dart';
+import 'views/intro/splash_page.dart';
 
 void main() {
   runApp(const MainApp());
